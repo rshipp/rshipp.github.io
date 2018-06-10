@@ -1,6 +1,6 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Ryan Shipp
+bio: Software engineer, infosec hobbyist.
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -12,11 +12,11 @@ picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume: false
+#resume-external: true
+#resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://rshipp.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -34,37 +34,31 @@ disqus:
   categories:
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+#facebook: myfacebook
+twitter: rshipp42
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: rshipp42
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: rshipp
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: ryan@rshipp.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    rshipp:
+        name: Ryan Shipp
+        bio: Software engineer, infosec hobbyist.
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: rshipp42
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -79,8 +73,8 @@ width: normal
 projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
+#about: true
+#blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -95,7 +89,7 @@ related: true
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # do you want some animations?
 animation: true
