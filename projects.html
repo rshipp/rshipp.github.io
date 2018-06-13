@@ -9,6 +9,7 @@ title: Projects
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
                     <aside>{{ post.language }}</aside>
                     <h3 class="title">{{ post.title }}</h3>
+                    <p class="description">{{ post.description }}</h3>
                 </a>
             </div>
         {% endif %}
