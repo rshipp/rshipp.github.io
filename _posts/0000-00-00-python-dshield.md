@@ -11,7 +11,7 @@ tag:
 - infosec
 category: project
 author: rshipp
-description: 
+description: Pythonic interface to the Internet Storm Center / DShield API.
 externalLink: https://github.com/rshipp/python-dshield
 language: Python
 ---
