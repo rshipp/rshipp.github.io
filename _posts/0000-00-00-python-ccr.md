@@ -1,15 +1,15 @@
 ---
-title: "python-dshield"
+title: "python-ccr"
 layout: post
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
 tag:
 - python-library
-- infosec
+- chakra
 category: project
 author: rshipp
-description: Pythonic interface to the Internet Storm Center / DShield API.
-externalLink: https://github.com/rshipp/python-dshield
+description: Client libray for the Chakra Community Repository API.
+externalLink: https://github.com/ccr-tools/python-ccr
 language: Python
 ---
