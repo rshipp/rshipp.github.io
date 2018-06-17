@@ -12,6 +12,6 @@ tag:
 category: project
 author: rshipp
 description: Simple, low interaction port monitoring honeypot.
-externalLink: https://github.com/rshipp/splipm-honeypot
+externalLink: https://github.com/rshipp/slipm-honeypot
 language: Shell
 ---
