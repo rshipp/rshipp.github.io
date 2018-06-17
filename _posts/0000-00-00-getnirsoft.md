@@ -10,7 +10,7 @@ tag:
 - windows-desktop
 category: project
 author: rshipp
-description: A small, unfinished utility to browse and download NirSoft programs.
+description: Small, unfinished utility to browse and download NirSoft programs.
 externalLink: https://github.com/rshipp/GetNirSoft
 language: AutoHotkey
 ---

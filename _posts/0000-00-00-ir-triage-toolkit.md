@@ -11,7 +11,7 @@ tag:
 - bash-script
 category: project
 author: rshipp
-description: Generates a toolkit useful for performing a security incident response, following the order of volatility.
+description: Generate a toolkit useful for performing a security incident response.
 externalLink: https://github.com/rshipp/ir-triage-toolkit
 language: Shell
 ---
