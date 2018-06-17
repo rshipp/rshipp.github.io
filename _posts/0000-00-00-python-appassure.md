@@ -1,7 +1,7 @@
 ---
 title: "python-appassure"
 layout: post
-date: 0000-00-00
+date: 2015-01-01
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
