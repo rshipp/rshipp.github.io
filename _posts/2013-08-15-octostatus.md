@@ -1,7 +1,7 @@
 ---
-title: "GetNirSoft"
+title: "OctoStatus"
 layout: post
-date: 2015-01-01
+date: 2013-08-15
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
@@ -10,7 +10,7 @@ tag:
 - windows-desktop
 category: project
 author: rshipp
-description: Small, unfinished utility to browse and download NirSoft programs.
-externalLink: https://github.com/rshipp/GetNirSoft
+description: See GitHub's status in your Windows system tray.
+externalLink: https://github.com/rshipp/octostatus.ahk
 language: AutoHotkey
 ---

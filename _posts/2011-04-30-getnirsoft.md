@@ -1,17 +1,16 @@
 ---
-title: "ProcFromWin"
+title: "GetNirSoft"
 layout: post
-date: 2015-01-01
+date: 2011-04-30
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
 tag:
 - autohotkey
-- infosec
 - windows-desktop
 category: project
 author: rshipp
-description: Get the process name, PID, and other information from a window.
-externalLink: https://github.com/rshipp/ProcFromWin
+description: Small, unfinished utility to browse and download NirSoft programs.
+externalLink: https://github.com/rshipp/GetNirSoft
 language: AutoHotkey
 ---

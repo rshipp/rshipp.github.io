@@ -1,7 +1,7 @@
 ---
 title: "SLIPM Honeypot"
 layout: post
-date: 2015-01-01
+date: 2012-07-09
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination

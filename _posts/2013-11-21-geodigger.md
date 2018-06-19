@@ -1,7 +1,7 @@
 ---
 title: "GeoDigger"
 layout: post
-date: 2015-01-01
+date: 2013-11-21
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination

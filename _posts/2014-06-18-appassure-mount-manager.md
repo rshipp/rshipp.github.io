@@ -1,7 +1,7 @@
 ---
 title: "AppAssure Mount Manager"
 layout: post
-date: 2015-01-01
+date: 2014-06-18
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
