@@ -1,5 +1,5 @@
 ---
-title: "python-iocextract"
+title: "iocextract"
 layout: post
 date: 2018-04-20
 headerImage: false

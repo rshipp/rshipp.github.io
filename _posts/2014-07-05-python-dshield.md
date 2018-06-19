@@ -1,5 +1,5 @@
 ---
-title: "python-dshield"
+title: "dshield"
 layout: post
 date: 2014-07-05
 headerImage: false

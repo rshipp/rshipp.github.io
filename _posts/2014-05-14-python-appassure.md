@@ -1,5 +1,5 @@
 ---
-title: "python-appassure"
+title: "appassure"
 layout: post
 date: 2014-05-14
 headerImage: false

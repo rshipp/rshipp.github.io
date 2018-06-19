@@ -1,5 +1,5 @@
 ---
-title: "python-sandboxapi"
+title: "sandboxapi"
 layout: post
 date: 2018-01-24
 headerImage: false
