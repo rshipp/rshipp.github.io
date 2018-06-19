@@ -10,7 +10,7 @@ tag:
 - python
 category: project
 author: rshipp
-description: Helper script for porting packages from Arch to Chakra Linux.
+description: A Python book I made some small contributions to.
 externalLink: false
 language: English
 ---
