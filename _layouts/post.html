@@ -30,7 +30,7 @@ layout: page
         {% else %}
             <a class="prev"></a>
         {% endif %}
-        {% if page.next.url %}
+        {% if page.next.url and page.next.category == "blog" %}
             <a class="next" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
         {% endif %}
     </div>
