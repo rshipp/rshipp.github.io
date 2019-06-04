@@ -25,12 +25,12 @@ layout: page
 
 {% if site.post-advance-links contains page.category %}
     <div class="blog-navigation">
-        {% if page.previous.url and not page.previous.projects %}
+        {% if page.previous.url and page.previous.category == "blog" %}
             <a class="prev" href="{{ site.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
         {% else %}
             <a class="prev"></a>
         {% endif %}
-        {% if page.next.url and not page.next.projects %}
+        {% if page.next.url %}
             <a class="next" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
         {% endif %}
     </div>
