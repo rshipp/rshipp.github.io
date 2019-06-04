@@ -6,6 +6,25 @@
     <div class="toright">
         <h4 class="name">{{ site.authors[page.author].name }}</h4>
         <p class="bio">{{ site.authors[page.author].bio }}</p>
+        <div class="social-links">
+            {% if site.twitter %}
+                <a class="link" data-title="twitter.com/{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank">
+                    <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+                </a>
+            {% endif %}
+
+            {% if site.linkedin %}
+                <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
+                    <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
+                </a>
+            {% endif %}
+
+            {% if site.github %}
+                <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank">
+                    <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
+                </a>
+            {% endif %}
+        </div>
 
         <!--
         <div class="share">
