@@ -495,6 +495,11 @@ func TestDeleteHandler(t *testing.T) {
 
 Run the tests with `go test`, and watch them all pass! 
 
+```
+PASS
+ok      _/<...>/StarManager     0.008s
+```
+
 You can check out the complete code for this post [on GitHub][27].
 
 Conclusion
