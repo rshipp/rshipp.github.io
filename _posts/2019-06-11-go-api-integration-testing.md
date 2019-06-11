@@ -15,7 +15,7 @@ tag:
 - testing
 category: blog
 author: rshipp
-description: Write integration tests for Golang HTTP handlers. Continued from "Building a Go Web API."
+description: Write integration tests for Golang HTTP handlers, with GORM and mux. Continued from "Building a Go Web API."
 ---
 
 I'm learning Go by building a small API-backed web application, and wanted to share the process in case it helps someone else. In this post, we'll continue where we left off last time with the [Go web API][1] for managing [GitHub stars][3], adding automated tests to ensure our code functions as expected. If you'd like to follow along with this post without going through the previous one, you can grab a copy of the API (`main.go`) from [this GitHub repo][2].
