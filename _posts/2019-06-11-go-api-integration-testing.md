@@ -500,6 +500,23 @@ PASS
 ok      _/<...>/StarManager     0.008s
 ```
 
+If you want to see the results of each individual test, use the "verbose" flag: `go test -v`:
+
+```
+=== RUN   TestCreateHandler
+--- PASS: TestCreateHandler (0.00s)
+=== RUN   TestUpdateHandler
+--- PASS: TestUpdateHandler (0.00s)
+=== RUN   TestViewHandler
+--- PASS: TestViewHandler (0.00s)
+=== RUN   TestListHandler
+--- PASS: TestListHandler (0.00s)
+=== RUN   TestDeleteHandler
+--- PASS: TestDeleteHandler (0.00s)
+PASS
+ok      _/home/ryan/dev/StarManager     0.008s
+```
+
 You can check out the complete code for this post [on GitHub][27].
 
 Conclusion
