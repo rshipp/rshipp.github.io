@@ -511,7 +511,7 @@ A quick recap:
 2. Tested HTTP response codes for all five HTTP request handlers.
 3. Tested HTTP response headers, and database contents for the Create handler.
 4. Tested database contents for the Update and Delete handlers.
-5. Tested HTTP response body JSON View and List handlers.
+5. Tested HTTP response body JSON for the View and List handlers.
 
 In the process, we covered several Go features and concepts:
 
