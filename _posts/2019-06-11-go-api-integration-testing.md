@@ -182,7 +182,7 @@ For a more complete project, we'd want to have additional tests for edge cases: 
 Update Handler
 --------------
 
-The Update handler, like the Create handler, expects a form-encoded request body with star attributes. The code we're using to do that is a little fragile (we may have to manually update it when we add new fields to the Star struct), so let's start by refactoring it out into a function inside `main_test.go`:
+The Update handler, like the Create handler, expects a form-encoded request body with star attributes. The code we're using to do that is a little fragile (we may have to manually update it when we add new fields to the Star struct), so let's start by refactoring it out into a function inside `main_test.go` so we only have to maintain it in once place:
 
 ```go
 func StarFormValues(star Star) *strings.Reader {
