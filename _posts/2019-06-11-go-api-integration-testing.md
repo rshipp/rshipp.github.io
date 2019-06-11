@@ -500,7 +500,7 @@ PASS
 ok      _/<...>/StarManager     0.008s
 ```
 
-If you want to see the results of each individual test, use the "verbose" flag: `go test -v`:
+If you want to see the results of each individual test, use the "verbose" flag - `go test -v`:
 
 ```
 === RUN   TestCreateHandler
