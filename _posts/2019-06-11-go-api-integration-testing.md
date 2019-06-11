@@ -34,10 +34,23 @@ Benefits:
 
 We will eventually want unit tests, for the reasons mentioned above, but starting with integration gives us the biggest return for the time being.
 
-Let's go through and write an integration test function for each of our five HTTP request handlers from `main.go`, starting with the Create handler.
+What You'll Need
+----------------
+
+Before we get started, you'll need a few things:
+
+* [Go][18] installed on your computer.
+* The [Go web API][2] (`main.go`) from the [previous post][1].
+* A text editor.
+
+You may also want to skim through the [tour of Go][29] or another introduction to the Go language if you haven't already, though you shouldn't need more than a basic understanding.
+
+If you run into anything unclear in this post, feel free to [open an issue][30] on GitHub and let me know!
 
 Create Handler
 --------------
+
+Let's go through and write an integration test function for each of our five HTTP request handlers from `main.go`, starting with the Create handler.
 
 Go tests are expected to be in a file ending with `_test.go`. Since we're writing tests for `main.go`, the conventional test file name is `main_test.go`. (Make sure `main_test.go` and `main.go` are in the same folder.)
 
@@ -572,3 +585,5 @@ Other references I used while researching, but didn't mention in the post:
 [26]: https://golang.org/pkg/encoding/json/#Unmarshal
 [27]: https://github.com/rshipp/StarManager/tree/38bb56732e89dc5c70d486cf71ce0dfa9ee88d2c
 [28]: https://stackoverflow.com/questions/39945968/most-efficient-way-to-convert-io-readcloser-to-byte-array
+[29]: https://tour.golang.org/welcome/1
+[30]: https://github.com/rshipp/rshipp.github.io/issues
