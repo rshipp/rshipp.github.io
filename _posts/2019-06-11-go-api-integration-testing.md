@@ -18,10 +18,7 @@ author: rshipp
 description: Write integration tests for Golang HTTP handlers. Continued from "Building a Go Web API."
 ---
 
-Web API Integration Testing with Go
-===================================
-
-In this post, we'll continue where we left off last time with the [Go web API][1] for managing [GitHub stars][3], adding automated tests to ensure our code functions as expected. If you'd like to follow along with this post without going through the previous one, you can grab a copy of the API (`main.go`) from [this GitHub repo][2].
+I'm learning Go by building a small API-backed web application, and wanted to share the process in case it helps someone else. In this post, we'll continue where we left off last time with the [Go web API][1] for managing [GitHub stars][3], adding automated tests to ensure our code functions as expected. If you'd like to follow along with this post without going through the previous one, you can grab a copy of the API (`main.go`) from [this GitHub repo][2].
 
 We'll start by writing [integration tests][5], which will rely on a real database backend rather than a [mock][4] or [stub][6]. Compared to [unit tests][6], integration tests have a few drawbacks and benefits for our purposes.
 
@@ -159,7 +156,7 @@ With our POST request "sent" to our handler, and the response recorded in `rr`, 
 	}
 ```
 
-First up, we expect to see `201 Created` as the status code. Go provides some nicely named [aliases][16] for HTTP status codes, so we can reference this as `http.StatusCreated`, and compare it to the actual response code we got in `rr.Code`. If they're different, we use [t.Errorf][17] to print our a useful message and then fail the test.
+First up, we expect to see `201 Created` as the status code. Go provides some nicely named [aliases][16] for HTTP status codes, so we can reference this as `http.StatusCreated`, and compare it to the actual response code we got in `rr.Code`. If they're different, we use [t.Errorf][17] to print out a useful message and then fail the test.
 
 Next, the `Location` header: we expect this to be set to the URL of the star that was just created, which we defined in `main.go` as `/stars/{star.Name}`. The actual header is in `rr.Header()`, so we can compare that to the expected URL to verify correctness.
 
@@ -212,7 +209,7 @@ func TestUpdateHandler(t *testing.T) {
 	app.DB.Create(testStar)
 ```
 
-There are two main things we want to test here: updating a star's name (which changes the URL used to reference it), and updating other fields in a star. We could do this manually, but that sounds like a lot of duplicated code. Luckilly, Go has a pattern called [table-driven tests][20] that will save us a lot of effort.
+There are two main things we want to test here: updating a star's name (which changes the URL used to reference it), and updating other fields in a star. We could do this manually, but that sounds like a lot of duplicated code. Luckily, Go has a pattern called [table-driven tests][20] that will save us a lot of effort.
 
 The basic pattern for a table-driven test looks something like this:
 
@@ -518,7 +515,7 @@ Additional References
 I found these three resources especially helpful! If you're new to testing in Go and want to learn more, I highly recommend them as a starting place.
 
 * [Integration Tests in Go - Philosophical Hacker](https://www.philosophicalhacker.com/post/integration-tests-in-go/)
-* [A Quick Quide to Testing in Golang - CaitieM](https://caitiem.com/2016/08/18/a-quick-guide-to-testing-in-golang/)
+* [A Quick Guide to Testing in Golang - CaitieM](https://caitiem.com/2016/08/18/a-quick-guide-to-testing-in-golang/)
 * [Testing HTTP handlers in Go - Lanre Adelowo](https://lanre.wtf/blog/2017/04/08/testing-http-handlers-go/)
 
 There's also the free ebook "Learn Go With Tests" on GitHub that looks really nice, though I only used it a little for this post:
