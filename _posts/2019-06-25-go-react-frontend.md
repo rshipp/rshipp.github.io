@@ -223,7 +223,7 @@ if (process.env.NODE_ENV !== 'production') {
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-The `process.env.NODE_ENV` check tests the value of the `NODE_ENV` [environment variable][32] at build time, and disables axe in production builds. (We can get a production-ready build with run `npm run build`.) The `axe` call passes in the two React references, and the number of milliseconds to wait for the app to load before running the accessibility checks - in this case `1000` (1 second).
+The `process.env.NODE_ENV` check tests the value of the `NODE_ENV` [environment variable][32] at build time, and disables axe in production builds. (We can get a production-ready build with `npm run build`.) The `axe()` call passes in the two React references, and the number of milliseconds to wait for the app to load before running the accessibility checks - in this case `1000` (1 second).
 
 Let's fire up the React app again and see what axe reports:
 
