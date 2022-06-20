@@ -1,9 +1,9 @@
 # main text of home
 name: Ryan Shipp
-bio: Software engineer, infosec hobbyist.
+bio: Software Engineer
 
 # twitter summary info
-description: Ryan Shipp. Software engineer, infosec hobbyist. Check out some of my projects.
+description: Ryan Shipp, software engineer. Check out some of my projects.
 
 # if it's an external image, update below for true
 # better with square images
@@ -55,7 +55,7 @@ email: ryan@rshipp.com
 authors:
     rshipp:
         name: Ryan Shipp
-        bio: Software engineer, infosec hobbyist.
+        bio: Software Engineer
         external-image: false
         picture: assets/images/profile.png
         twitter: rshipp42
