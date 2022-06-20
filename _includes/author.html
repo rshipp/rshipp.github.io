@@ -1,6 +1,6 @@
 <section class="author{% if site.disqus == false %} no-disqus{% endif %}">
     <div class="toleft">
-        <img class="selfie" src="{% if site.authors[page.author].external-image == true %}{{ site.authors[page.author].picture }}{% else %}{{ site.url }}/{{ site.authors[page.author].picture }}{% endif %}" alt="{{ site.authors[page.author].name }}" alt="author selfie">
+        <img class="selfie" src="{% if site.authors[page.author].external-image == true %}{{ site.authors[page.author].picture }}{% else %}{{ site.url }}/{{ site.authors[page.author].picture }}{% endif %}" alt="homepage" >
     </div>
 
     <div class="toright">
@@ -8,13 +8,13 @@
         <p class="bio">{{ site.authors[page.author].bio }}</p>
         <div class="social-links">
             {% if site.twitter %}
-                <a class="link" data-title="twitter.com/{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank">
+                <a class="link" data-title="twitter.com/{{ site.twitter }}" href="https://twitter.com/{{ site.twitter }}" target="_blank">
                     <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
                 </a>
             {% endif %}
 
             {% if site.linkedin %}
-                <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
+                <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://linkedin.com/in/{{ site.linkedin }}" target="_blank">
                     <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
                 </a>
             {% endif %}
