@@ -35,7 +35,7 @@ disqus:
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: rshipp42
+#twitter: rshipp42
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -58,7 +58,7 @@ authors:
         bio: Software Engineer
         external-image: false
         picture: assets/images/profile.png
-        twitter: rshipp42
+#        twitter: rshipp42
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
