@@ -11,7 +11,7 @@ tag:
 - javascript
 category: project
 author: rshipp
-description: Organize links, for research or other purposes.
+description: Rails 7/Turbo/Stimulus app to organize links, for research or other purposes.
 externalLink: https://github.com/rshipp/link_organizer
 language: Ruby
 ---
